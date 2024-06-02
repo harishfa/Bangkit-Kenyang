@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/search_view"
+android:layout_width="409.44dp"
+android:layout_height="909.86dp"
+android:clipToOutline="true"
+android:background="@drawable/search_view" >
+
+
+    <!-- drawable/search_view.xml -->
+    <TextView
+        android:width="409.44dp"
+        android:height="909.86dp"
+        android:viewportWidth="409.44"
+        android:viewportHeight="909.86"
+    />
+<group>
+    <clip-path
+        android:pathData="M43 0H366.438C390.186 0 409.438 19.2518 409.438 43V866.863C409.438 890.611 390.186 909.863 366.438 909.863H43C19.2518 909.863 0 890.611 0 866.863V43C0 19.2518 19.2518 0 43 0Z"
+        />
+    <path
+        android:pathData="M0 0V909.863H409.438V0"
+        android:fillColor="#FFFFFF"
+        />
+    <path
+        android:pathData="M43 0H366.438C390.186 0 409.438 19.2518 409.438 43V866.863C409.438 890.611 390.186 909.863 366.438 909.863H43C19.2518 909.863 0 890.611 0 866.863V43C0 19.2518 19.2518 0 43 0Z"
+        android:strokeWidth="22.75"
+        android:strokeColor="#4E4E4E"
+        />
+</group>
+</TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
